@@ -56,6 +56,6 @@ app.get('/resources/:jsConcept', (request, response) => {
     response.json(jsCodingResources[jsConcepts]);
 })
 
-app.listen(proces.env.PORT || PORT, _ => {
+app.listen(process.env.PORT || PORT, _ => {
     console.log("I'm listening on Port " + PORT + ". Jot things down!")
 })
